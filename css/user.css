@@ -1,12 +1,9 @@
-.banner{
-	
+.mid {
+  border: solid 4px black;
 }
 
-.mid{
-	border: solid 4px black;
-}
-
-.img-frame{
-	max-height: 300px;
-	max-width: 300px;
+.img-frame {
+  max-height: 300px;
+  max-width: 300px;
+  margin: 10px;
 }
