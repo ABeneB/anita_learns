@@ -13,8 +13,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--html5 zur mediawiedergabe -->
+    <!--html5media -->
     <script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
+
+    <!--ractive.js -->
+    <script src='http://cdn.ractivejs.org/latest/ractive.js'></script>
 
     <!-- JQuery -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -24,9 +27,6 @@
 
     <!-- Load data js-->
     <script src="js/data.js"></script>
-
-    <!-- Angular js-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
 
     <!-- Load costume js-->
     <script src="js/main.js"></script>
@@ -50,7 +50,9 @@
     <div class="container">
       <div class="header">
         <div class="banner col-md-12">
-          <img src="imgs/testbanner.png">
+          <div class"banner-con">
+            <h1> Anita lernt!</h1>
+          </div>
         </div>
         <div class="navigation col-md-12">
           <!--wird vom js verändert, je nach Aufgabe-->
@@ -61,7 +63,14 @@
         <div class="left">
           <!--wird vom js befüllt, je nach Aufgabe-->
         </div>
-        <span class="col-md-12"> <div class="top-info"></div> <div class="mid"></div> </span>
+        <span class="col-md-12 no-padding"> 
+          <div class="top-info">
+            
+          </div> 
+          <div class="mid">
+            
+          </div> 
+        </span>
         <div class="right">
           <!--wird vom js befüllt, je nach Aufgabe-->
         </div>

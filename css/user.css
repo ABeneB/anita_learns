@@ -1,9 +1,106 @@
 .mid {
   border: solid 4px black;
+  border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 50px;
 }
 
 .img-frame {
   max-height: 300px;
   max-width: 300px;
   margin: 10px;
+}
+
+.banner {
+  min-height: 100px;
+  padding-top: 15px;
+  background-color: #E65757;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+.banner h1 {
+  font-family: Serif;
+}
+
+.no-padding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+body {
+  background-image: url('/lern_webseite/imgs/paper-pattern1-0.jpg');
+}
+
+.footer {
+  margin-top: 5px;
+}
+
+.lang{
+  max-width: 500px;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.niv{
+  max-width: 500px;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.cat{
+  max-width: 500px;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.answer{
+  max-width: 500px;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.next{
+  max-width: 500px;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.back{
+  max-width: 900px;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.finished{
+    font-size: 50px;
+}
+
+.result{
+    font-size: 50px;
+    color: red;
+}
+
+.a-form{
+     font-size: 50px;
+     height: 75px;
 }

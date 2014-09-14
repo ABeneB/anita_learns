@@ -10,12 +10,12 @@ data = {
           lang1 : "Baum",
           lang2 : "tree",
           img : "tree.jpeg",
-          sound : "tree.mp3"
+          sound : ""
         }, {
           id : "00002",
           lang1 : "test2",
           lang2 : "test2",
-          img : "tree.jpeg",
+          img : "",
           sound : "tree.mp3"
         }, {
           id : "00003",
@@ -85,7 +85,7 @@ data = {
           lang1 : "Apfel",
           lang2 : "jabuka",
           img : "apple.jpg",
-          sound : ""
+          sound : "apple.mp3"
         }, {
           id : "00002",
           lang1 : "test2",
@@ -102,4 +102,4 @@ data = {
       }]
     }]
   }]
-}; 
+};
